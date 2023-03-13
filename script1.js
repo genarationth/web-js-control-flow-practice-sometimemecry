@@ -1,0 +1,2 @@
+const password = 'pas$word'
+const result = password.length >= 12 ? console.log('password is very strong so Welcome!') : password.length >= 8 ? console.log('WELCOME') : console.log('Sorry the password is too short!')
